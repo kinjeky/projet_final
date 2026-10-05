@@ -34143,7 +34143,7 @@ MonoBehaviour:
   operatorValue: 1
   textOperator: 0
   floatThreshold: 0
-  intThreshold: 5
+  intThreshold: 10
   boolThreshold: 0
   stringThreshold: 
 --- !u!114 &3426537948337452799
