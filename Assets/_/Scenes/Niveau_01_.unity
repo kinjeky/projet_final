@@ -28588,6 +28588,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7837301511484818901, guid: 36da7823d8c43e744855dc3c0ee250f6, type: 3}
+      propertyPath: field of view
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7838256908361755799, guid: 36da7823d8c43e744855dc3c0ee250f6, type: 3}
+      propertyPath: Lens.FieldOfView
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 7929929634259177457, guid: 36da7823d8c43e744855dc3c0ee250f6, type: 3}
       propertyPath: m_Mesh
       value: 
