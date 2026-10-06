@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7293554284626891657}
   - component: {fileID: 5131045867543319674}
   - component: {fileID: 3426537948337452799}
+  - component: {fileID: 8694921590376022930}
   m_Layer: 0
   m_Name: badGuy_5hp
   m_TagString: Untagged
@@ -34118,6 +34119,7 @@ MonoBehaviour:
   - {fileID: 5131045867543319674}
   actions:
   - {fileID: 3426537948337452799}
+  - {fileID: 8694921590376022930}
   exitActions: []
   holdTime: 0
   afterTrigger: 3
@@ -34143,7 +34145,7 @@ MonoBehaviour:
   operatorValue: 1
   textOperator: 0
   floatThreshold: 0
-  intThreshold: 10
+  intThreshold: 5
   boolThreshold: 0
   stringThreshold: 
 --- !u!114 &3426537948337452799
@@ -34161,6 +34163,24 @@ MonoBehaviour:
   targetMode: 1
   target: {fileID: 3707001465994732564}
   operation: 2
+--- !u!114 &8694921590376022930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3707001465994732564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
+  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  valueMode: 1
+  floatValue: 0
+  intValue: 1
+  boolValue: 0
+  stringValue: 
 --- !u!1001 &3383110384037483794
 PrefabInstance:
   m_ObjectHideFlags: 0
