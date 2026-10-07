@@ -1565,7 +1565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy02_5hp
+      value: badGuy12_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1610,11 +1610,11 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 56a7226a0a40a974fa501ea8c25ba7d5, type: 2}
+      objectReference: {fileID: 11400000, guid: b5efebab9b72f3a4a8c5c5c42f4e999e, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 56a7226a0a40a974fa501ea8c25ba7d5, type: 2}
+      objectReference: {fileID: 11400000, guid: b5efebab9b72f3a4a8c5c5c42f4e999e, type: 2}
     - target: {fileID: 7293554284626891657, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: actions.Array.size
       value: 2
@@ -1623,6 +1623,10 @@ PrefabInstance:
       propertyPath: 'actions.Array.data[1]'
       value: 
       objectReference: {fileID: 476819290}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3301,7 +3305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   valueMode: 1
   floatValue: 0
   intValue: 1
@@ -4235,7 +4239,7 @@ PrefabInstance:
       objectReference: {fileID: 1672509522}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy09_5hp
+      value: badGuy19_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalScale.x
@@ -4292,11 +4296,15 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: b9115af30563bd745862c8a2a004592d, type: 2}
+      objectReference: {fileID: 11400000, guid: c0d88d8d534e6f8488e7b97b91840d68, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: b9115af30563bd745862c8a2a004592d, type: 2}
+      objectReference: {fileID: 11400000, guid: c0d88d8d534e6f8488e7b97b91840d68, type: 2}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4857,7 +4865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   valueMode: 1
   floatValue: 0
   intValue: 1
@@ -4904,7 +4912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableCondition
   Operator: 0
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   operatorValue: 1
   textOperator: 0
   floatThreshold: 0
@@ -6003,7 +6011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy06_5hp
+      value: badGuy16_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6048,11 +6056,11 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: a232f35a56e4c0946977a27d137fe642, type: 2}
+      objectReference: {fileID: 11400000, guid: cc198c2882b4e5144a69760f2cc0c36c, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: a232f35a56e4c0946977a27d137fe642, type: 2}
+      objectReference: {fileID: 11400000, guid: cc198c2882b4e5144a69760f2cc0c36c, type: 2}
     - target: {fileID: 7293554284626891657, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: actions.Array.size
       value: 2
@@ -6061,6 +6069,10 @@ PrefabInstance:
       propertyPath: 'actions.Array.data[1]'
       value: 
       objectReference: {fileID: 1848609868}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -11075,10 +11087,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1064725822192657778, guid: 9ac2a938463b8744f80ee28f4731772f, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: 7bca5f61bc29522438e7934e8da29800, type: 2}
+    - target: {fileID: 1208281871769419184, guid: 9ac2a938463b8744f80ee28f4731772f, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: 7bca5f61bc29522438e7934e8da29800, type: 2}
     - target: {fileID: 3236509463937744849, guid: 9ac2a938463b8744f80ee28f4731772f, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 117032602}
+    - target: {fileID: 3412356243120400984, guid: 9ac2a938463b8744f80ee28f4731772f, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 3658723934033754691, guid: 9ac2a938463b8744f80ee28f4731772f, type: 3}
       propertyPath: actions.Array.size
       value: 3
@@ -46498,7 +46522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableCondition
   Operator: 0
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   operatorValue: 1
   textOperator: 0
   floatThreshold: 0
@@ -48127,7 +48151,7 @@ PrefabInstance:
       objectReference: {fileID: 489945269}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy07_5hp
+      value: badGuy17_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalScale.x
@@ -48184,11 +48208,15 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 970710ce8a2755d45b2f415e6c8d90b9, type: 2}
+      objectReference: {fileID: 11400000, guid: 66aaf2da88520fb46bbff224e38e13d3, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 970710ce8a2755d45b2f415e6c8d90b9, type: 2}
+      objectReference: {fileID: 11400000, guid: 66aaf2da88520fb46bbff224e38e13d3, type: 2}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -50534,7 +50562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   valueMode: 1
   floatValue: 0
   intValue: 1
@@ -50562,7 +50590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy10_5hp
+      value: badGuy20_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalScale.x
@@ -50619,11 +50647,15 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: c36d891c2e9c1784382ca212ec04ad25, type: 2}
+      objectReference: {fileID: 11400000, guid: 85ec72bd29826894fb831a31f881a81a, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: c36d891c2e9c1784382ca212ec04ad25, type: 2}
+      objectReference: {fileID: 11400000, guid: 85ec72bd29826894fb831a31f881a81a, type: 2}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -52647,7 +52679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   valueMode: 1
   floatValue: 0
   intValue: 1
@@ -53566,7 +53598,7 @@ PrefabInstance:
       objectReference: {fileID: 975083966}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy08_5hp
+      value: badGuy18_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalScale.x
@@ -53623,11 +53655,15 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 7b92a9d9ba3eb9049b8604c0f14a1552, type: 2}
+      objectReference: {fileID: 11400000, guid: 6326ad1b19ae4ec4aa05ce0a56891157, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 7b92a9d9ba3eb9049b8604c0f14a1552, type: 2}
+      objectReference: {fileID: 11400000, guid: 6326ad1b19ae4ec4aa05ce0a56891157, type: 2}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -56673,7 +56709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   valueMode: 1
   floatValue: 0
   intValue: 1
@@ -56879,7 +56915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy03_5hp
+      value: badGuy13_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56924,11 +56960,11 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 48a253f4c81bec540b4c84005e4d6765, type: 2}
+      objectReference: {fileID: 11400000, guid: bfefe57ba4e29ee458f1b9f35cde39fa, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 48a253f4c81bec540b4c84005e4d6765, type: 2}
+      objectReference: {fileID: 11400000, guid: bfefe57ba4e29ee458f1b9f35cde39fa, type: 2}
     - target: {fileID: 7293554284626891657, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: actions.Array.size
       value: 2
@@ -56945,6 +56981,10 @@ PrefabInstance:
       propertyPath: 'actions.Array.data[2]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -57928,7 +57968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy01_5hp
+      value: badGuy11_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57970,6 +58010,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: 4750a94c721fe0c46a31789474087888, type: 2}
+    - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: 4750a94c721fe0c46a31789474087888, type: 2}
     - target: {fileID: 7293554284626891657, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: actions.Array.size
       value: 2
@@ -57978,6 +58026,14 @@ PrefabInstance:
       propertyPath: 'actions.Array.data[1]'
       value: 
       objectReference: {fileID: 1253773882}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -58176,6 +58232,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2299905422386491308, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299905422386491308, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299905422386491308, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299905422386491308, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299905422386491308, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299905422386491308, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7028758421517448465, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
       propertyPath: m_Name
       value: HUD
@@ -58640,6 +58720,10 @@ PrefabInstance:
     - target: {fileID: 1857528058122076032, guid: 36da7823d8c43e744855dc3c0ee250f6, type: 3}
       propertyPath: m_VersionIndex
       value: 1837
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926418645289051180, guid: 36da7823d8c43e744855dc3c0ee250f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3090654470297711774, guid: 36da7823d8c43e744855dc3c0ee250f6, type: 3}
       propertyPath: m_Name
@@ -63545,7 +63629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy04_5hp
+      value: badGuy14_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63590,11 +63674,11 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 2b7bbfdfda79baa4cabf9644b7e94e52, type: 2}
+      objectReference: {fileID: 11400000, guid: 45f6ac9cfb061914b8350252afb33570, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 2b7bbfdfda79baa4cabf9644b7e94e52, type: 2}
+      objectReference: {fileID: 11400000, guid: 45f6ac9cfb061914b8350252afb33570, type: 2}
     - target: {fileID: 7293554284626891657, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: actions.Array.size
       value: 2
@@ -63603,6 +63687,10 @@ PrefabInstance:
       propertyPath: 'actions.Array.data[1]'
       value: 
       objectReference: {fileID: 225117332}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -64592,6 +64680,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2114650023025810407, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+      propertyPath: actions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114650023025810407, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+      propertyPath: 'actions.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1799193791}
+    - target: {fileID: 2114650023025810407, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+      propertyPath: 'actions.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1799193792}
+    - target: {fileID: 2381582529763226201, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+      propertyPath: additive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2381582529763226201, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
       propertyPath: scenePath
       value: Assets/_/Scenes/Niveau_03.unity
@@ -64611,8 +64715,45 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8149670078952728117, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1799193791}
   m_SourcePrefab: {fileID: 100100000, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+--- !u!1 &1799193790 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8149670078952728117, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+  m_PrefabInstance: {fileID: 1799193789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1799193791
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799193790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
+  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  valueMode: 0
+  floatValue: 0
+  intValue: 0
+  boolValue: 0
+  stringValue: 
+--- !u!114 &1799193792 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2381582529763226201, guid: 7105ea800be7c494eabf12078ac55dc8, type: 3}
+  m_PrefabInstance: {fileID: 1799193789}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799193790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2539c1a705247439d369eeb7e6769c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.SceneAction
 --- !u!1 &1799506747
 GameObject:
   m_ObjectHideFlags: 0
@@ -65881,7 +66022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
-  targetVariable: {fileID: 11400000, guid: 8128502639df86c499c820db2cc28985, type: 2}
+  targetVariable: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
   valueMode: 1
   floatValue: 0
   intValue: 1
@@ -66621,7 +66762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy11_5hp
+      value: badGuy21_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalScale.x
@@ -66678,11 +66819,15 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 4750a94c721fe0c46a31789474087888, type: 2}
+      objectReference: {fileID: 11400000, guid: a991e6ebeb289c14b90a4acc0757f109, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 4750a94c721fe0c46a31789474087888, type: 2}
+      objectReference: {fileID: 11400000, guid: a991e6ebeb289c14b90a4acc0757f109, type: 2}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -69952,7 +70097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3707001465994732564, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Name
-      value: badGuy05_5hp
+      value: badGuy15_5hp
       objectReference: {fileID: 0}
     - target: {fileID: 3781951360828912002, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69997,11 +70142,11 @@ PrefabInstance:
     - target: {fileID: 5131045867543319674, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 31bac9daf0b9ba5499efc8028186b32e, type: 2}
+      objectReference: {fileID: 11400000, guid: 787012d7b4469024c9e3b3f815fa0a97, type: 2}
     - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: targetVariable
       value: 
-      objectReference: {fileID: 11400000, guid: 31bac9daf0b9ba5499efc8028186b32e, type: 2}
+      objectReference: {fileID: 11400000, guid: 787012d7b4469024c9e3b3f815fa0a97, type: 2}
     - target: {fileID: 7293554284626891657, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: actions.Array.size
       value: 2
@@ -70010,6 +70155,10 @@ PrefabInstance:
       propertyPath: 'actions.Array.data[1]'
       value: 
       objectReference: {fileID: 1508649420}
+    - target: {fileID: 8694921590376022930, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ccf925e17d7c8a64c822974f2b5fa779, type: 2}
     - target: {fileID: 8870942034413295131, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: m_Mesh
       value: 
