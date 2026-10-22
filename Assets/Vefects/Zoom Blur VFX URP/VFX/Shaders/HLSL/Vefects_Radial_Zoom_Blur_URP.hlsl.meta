@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5eaaedcbecdf3148bd17c9cb450424c
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 415198
+  packageName: Easy Zoom Blur - URP
+  packageVersion: 1.0.0
+  assetPath: Assets/Vefects/Zoom Blur VFX URP/VFX/Shaders/HLSL/Vefects_Radial_Zoom_Blur_URP.hlsl
+  uploadId: 1014658

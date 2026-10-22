@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb15e02a3864b3c4aa8c20e1570fdcd9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 415198
+  packageName: Easy Zoom Blur - URP
+  packageVersion: 1.0.0
+  assetPath: Assets/Vefects/Zoom Blur VFX URP/VFX/Materials/M_VFX_Zoom_Blur_02.mat
+  uploadId: 1014658

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf7320ed0b41ca34a8efc42ccc690bc4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 415198
+  packageName: Easy Zoom Blur - URP
+  packageVersion: 1.0.0
+  assetPath: Assets/Vefects/Zoom Blur VFX URP/VFX/Materials/M_VFX_Zoom_Blur_Radial_Noise_Dynamic_03.mat
+  uploadId: 1014658
