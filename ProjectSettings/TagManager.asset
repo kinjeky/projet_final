@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Projectile
+  - 01_chamberLights
   layers:
   - Default
   - TransparentFX
