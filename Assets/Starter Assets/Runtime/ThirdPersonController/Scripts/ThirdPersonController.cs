@@ -85,7 +85,7 @@ namespace StarterAssets
         private float _targetRotation = 0.0f;
         private float _rotationVelocity;
         private float _verticalVelocity;
-        private float _terminalVelocity = 53.0f;
+        private float _terminalVelocity = -53.0f;
 
         // timeout deltatime
         private float _jumpTimeoutDelta;
@@ -196,7 +196,7 @@ namespace StarterAssets
             if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
             {
                 //Don't multiply mouse input by Time.deltaTime;
-                float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
+                float deltaTimeMultiplier = _input.lookFromTouch ? Time.deltaTime : 1.0f;
 
                 _cinemachineTargetYaw += _input.look.x * deltaTimeMultiplier;
                 _cinemachineTargetPitch += _input.look.y * deltaTimeMultiplier;
@@ -341,8 +341,8 @@ namespace StarterAssets
                 _input.jump = false;
             }
 
-            // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
-            if (_verticalVelocity < _terminalVelocity)
+            // apply gravity over time if above terminal (multiply by delta time twice to linearly speed up over time)
+            if (_verticalVelocity > _terminalVelocity)
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
             }

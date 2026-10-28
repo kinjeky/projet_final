@@ -15,6 +15,7 @@ namespace StarterAssets
 
         public void VirtualLookInput(Vector2 virtualLookDirection)
         {
+            StarterAssetsInputs.lookFromTouch = true; 
             StarterAssetsInputs.LookInput(virtualLookDirection);
         }
 

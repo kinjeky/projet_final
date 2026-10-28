@@ -58,7 +58,7 @@ namespace StarterAssets
 		private float _speed;
 		private float _rotationVelocity;
 		private float _verticalVelocity;
-		private float _terminalVelocity = 53.0f;
+		private float _terminalVelocity = -53.0f;
 
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
@@ -135,9 +135,9 @@ namespace StarterAssets
 			if (_input.look.sqrMagnitude >= _threshold)
 			{
 				//Don't multiply mouse input by Time.deltaTime
-				float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
-				
-				_cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
+				float deltaTimeMultiplier = _input.lookFromTouch ? Time.deltaTime : 1.0f;
+
+                _cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
 				_rotationVelocity = _input.look.x * RotationSpeed * deltaTimeMultiplier;
 
 				// clamp our pitch rotation
@@ -239,8 +239,8 @@ namespace StarterAssets
 				_input.jump = false;
 			}
 
-			// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
-			if (_verticalVelocity < _terminalVelocity)
+			// apply gravity over time if above terminal (multiply by delta time twice to linearly speed up over time)
+			if (_verticalVelocity > _terminalVelocity)
 			{
 				_verticalVelocity += Gravity * Time.deltaTime;
 			}

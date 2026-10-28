@@ -15,8 +15,9 @@ namespace StarterAssets
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
+		public bool lookFromTouch;
 
-		[Header("Mouse Cursor Settings")]
+        [Header("Mouse Cursor Settings")]
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
 
@@ -30,6 +31,7 @@ namespace StarterAssets
 		{
 			if(cursorInputForLook)
 			{
+				lookFromTouch = false;
 				LookInput(value.Get<Vector2>());
 			}
 		}
