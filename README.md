@@ -67,3 +67,9 @@ Type: modèle 3D weapons
 Auteur: Simon Mercuzot
 Source: https://assetstore.unity.com/packages/3d/props/guns/low-poly-weapons-vol-1-151980
 License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Oiiaioooooiai Cat
+Type: modèle 3D cat
+Auteur: Zhuier
+Source: https://sketchfab.com/3d-models/oiiaioooooiai-cat-30d27bf7fb224849b76e208a6eccdb36
+License: CC Attribution
