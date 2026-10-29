@@ -22,5 +22,6 @@ J'ai exploser le précédent record
 
 37 seconde - christophe
 29 seconde - yoan
+20 seconde - wilhene
 
 Le visuel est bien, les assets sont cohérents entre eux et avec les personnages. Le concept sera encore mieux quand on va avoir appris à animer les pnj.
