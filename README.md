@@ -79,3 +79,21 @@ Type: modèle 3D chest
 Auteur: Alstra Infinite
 Source: https://assetstore.unity.com/packages/3d/props/chests-polypack-209167
 License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Archery Target
+Type: modèle 3D shooting target
+Auteur: Glowing Rifts
+Source: https://assetstore.unity.com/packages/3d/props/archery-target-319592
+License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Low-Poly Wooden Kid's Toys
+Type: modèle 3D kid toys
+Auteur: KeySmash Studios
+Source: https://assetstore.unity.com/packages/3d/props/interior/low-poly-wooden-kid-s-toys-162585
+License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Claw Machine Free
+Type: modèle 3D kid toys
+Auteur: ithappy
+Source: https://assetstore.unity.com/packages/3d/props/claw-machine-free-409820
+License: Standard Unity Asset Store EULA, Extension Asset
