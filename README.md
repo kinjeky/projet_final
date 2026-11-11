@@ -79,3 +79,9 @@ Type: modèle 3D chest
 Auteur: Alstra Infinite
 Source: https://assetstore.unity.com/packages/3d/props/chests-polypack-209167
 License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Archery Target
+Type: modèle 3D shooting target
+Auteur: Glowing Rifts
+Source: https://assetstore.unity.com/packages/3d/props/archery-target-319592
+License: Standard Unity Asset Store EULA, Extension Asset
