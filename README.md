@@ -73,3 +73,9 @@ Type: modèle 3D cat
 Auteur: Zhuier
 Source: https://sketchfab.com/3d-models/oiiaioooooiai-cat-30d27bf7fb224849b76e208a6eccdb36
 License: CC Attribution
+
+Nom: Chests - PolyPack
+Type: modèle 3D chest
+Auteur: Alstra Infinite
+Source: https://assetstore.unity.com/packages/3d/props/chests-polypack-209167
+License: Standard Unity Asset Store EULA, Extension Asset
