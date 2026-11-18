@@ -92,8 +92,20 @@ Auteur: KeySmash Studios
 Source: https://assetstore.unity.com/packages/3d/props/interior/low-poly-wooden-kid-s-toys-162585
 License: Standard Unity Asset Store EULA, Extension Asset
 
-Nom: Claw Machine Free
-Type: modèle 3D kid toys
-Auteur: ithappy
-Source: https://assetstore.unity.com/packages/3d/props/claw-machine-free-409820
+Nom: Food Pack - Low Poly Sweets
+Type: modèle 3D candy
+Auteur: HQP Studios
+Source: https://assetstore.unity.com/packages/3d/props/food-pack-low-poly-sweets-277669
+License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Low Poly Winter Log Cabin Pack
+Type: modèle 3D
+Auteur: Small Hearth Studios
+Source: https://assetstore.unity.com/packages/3d/environments/low-poly-winter-log-cabin-pack-347838
+License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Food Pack | Free Demo
+Type: modèle 3D food
+Auteur: Mumifier Studio
+Source: https://assetstore.unity.com/packages/3d/props/food/food-pack-free-demo-225294
 License: Standard Unity Asset Store EULA, Extension Asset
