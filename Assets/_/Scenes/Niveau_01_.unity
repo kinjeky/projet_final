@@ -2649,6 +2649,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2717886980640701238, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: bar
+      value: 
+      objectReference: {fileID: 1024911006}
+    - target: {fileID: 2717886980640701238, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 345298008}
+    - target: {fileID: 2717886980640701238, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: maximum
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717886980640701238, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      propertyPath: startValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4396368762433375622, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
       propertyPath: m_text
       value: HP
@@ -2737,10 +2753,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2717886980640701238, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7028758421517448465, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1598731220}
   m_SourcePrefab: {fileID: 100100000, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
 --- !u!1001 &258714462
 PrefabInstance:
@@ -17116,6 +17136,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 428906, guid: a5cd29a93d7ae2d488fa0376d0d08462, type: 3}
   m_PrefabInstance: {fileID: 1947149148}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1598731215 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7028758421517448465, guid: d780a88be76a10c41976f43fd7aa15c9, type: 3}
+  m_PrefabInstance: {fileID: 254431363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1598731220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598731215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2e6cc16ec38314c84e13e120b2e1c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maximum: 10
+  startValue: 10
+  variable: {fileID: 0}
+  resetOnStart: 1
+  text: {fileID: 345298008}
+  format: '{0} / {1}'
+  bar: {fileID: 1024911006}
+  barSpeed: 100
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onHealed:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 49863844}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1612968272 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3090654470297711774, guid: 36da7823d8c43e744855dc3c0ee250f6, type: 3}
