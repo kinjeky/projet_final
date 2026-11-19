@@ -109,3 +109,9 @@ Type: modèle 3D food
 Auteur: Mumifier Studio
 Source: https://assetstore.unity.com/packages/3d/props/food/food-pack-free-demo-225294
 License: Standard Unity Asset Store EULA, Extension Asset
+
+Nom: Appliances - SnapNSet Starter - Low Poly Assets
+Type: modèle 3D fridge
+Auteur: Alstra Infinite
+Source: https://assetstore.unity.com/packages/3d/props/electronics/appliances-snapnset-starter-low-poly-assets-180419
+License: Standard Unity Asset Store EULA, Extension Asset
