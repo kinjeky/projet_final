@@ -22982,6 +22982,10 @@ PrefabInstance:
       propertyPath: intThreshold
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6428647178427780280, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
+      propertyPath: targetVariable
+      value: 
+      objectReference: {fileID: 11400000, guid: ac13fef7a353f6a499e12458a58e78ff, type: 2}
     - target: {fileID: 7293554284626891657, guid: fd0e5c220b3be9e4c839ffe16723c6af, type: 3}
       propertyPath: actions.Array.size
       value: 2
